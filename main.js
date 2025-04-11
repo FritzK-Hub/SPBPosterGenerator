@@ -164,9 +164,9 @@ function createAttr (id, _innerHTML) {
  * @returns runtime background img url
  */
 function getBackgroundImgURL () {
-  var fileURL = 'sale_background.png'
+  var fileURL = 'images/sale_background.png'
   if (document.getElementById('radio-regular').checked) {
-    fileURL = 'regular_background.png'
+    fileURL = 'images/regular_background.png'
   }
   fileURL = browser.runtime.getURL(fileURL)
   return fileURL

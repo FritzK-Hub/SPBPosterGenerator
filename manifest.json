@@ -20,12 +20,12 @@
   "web_accessible_resources": [
     "images/sale_background.png", 
     "images/regular_background.png", 
-    "fonts/Sans-Bold.otf",
-    "fonts/Sans-BoldCond.otf",
-    "fonts/Sans-Cond.otf",
-    "fonts/Sans-Light.otf",
-    "fonts/Sans-Regular.otf",
-    "fonts/Sans-SemiBold.otf"
+    "css/fonts/Sans-Bold.otf",
+    "css/fonts/Sans-BoldCond.otf",
+    "css/fonts/Sans-Cond.otf",
+    "css/fonts/Sans-Light.otf",
+    "css/fonts/Sans-Regular.otf",
+    "css/fonts/Sans-SemiBold.otf"
   ],
 
   "browser_specific_settings": {
