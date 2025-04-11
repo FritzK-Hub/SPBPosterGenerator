@@ -84,7 +84,7 @@
   #print-data-article-name {
     --size: 10mm;
     text-align: center;
-    font-size: 8mm;
+    font-size: 10mm;
     font-weight: 800;
     line-height: var(--size);
     color: var(--black);
