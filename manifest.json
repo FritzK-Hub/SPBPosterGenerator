@@ -12,20 +12,20 @@
   "content_scripts": [
     {
       "matches": ["*://*.sonderpreis-baumarkt.de/*"],
-      "js": ["borderify.js"],
-      "css": ["override.css", "Fonts.css"]
+      "js": ["main.js"],
+      "css": ["css/override.css", "css/fonts.css"]
     }
   ],
 
   "web_accessible_resources": [
     "images/sale_background.png", 
     "images/regular_background.png", 
-    "fonts/MyriadPro-Bold.otf",
-    "fonts/MyriadPro-BoldCond.otf",
-    "fonts/MyriadPro-Cond.otf",
-    "fonts/MyriadPro-Light.otf",
-    "fonts/MyriadPro-Regular.otf",
-    "fonts/MyriadPro-SemiBold.otf"
+    "fonts/Sans-Bold.otf",
+    "fonts/Sans-BoldCond.otf",
+    "fonts/Sans-Cond.otf",
+    "fonts/Sans-Light.otf",
+    "fonts/Sans-Regular.otf",
+    "fonts/Sans-SemiBold.otf"
   ],
 
   "browser_specific_settings": {
