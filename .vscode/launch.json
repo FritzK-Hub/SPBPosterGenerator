@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch WebExtension",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "addonPath": "${workspaceFolder}",
+            "reloadOnChange": "${workspaceFolder}/*",
+            "firefoxArgs": ["https://www.sonderpreis-baumarkt.de/technik-und-werkzeug/elektrowerkzeuge/bohrmaschinen-und-bohrhaemmer/geraete/dewalt-dcd771d2-qw-18v-bohrschrauber-132510082.html"]
+        }
+    ]
+}

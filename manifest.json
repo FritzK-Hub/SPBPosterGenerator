@@ -1,0 +1,36 @@
+{
+
+  "description": "Generates a poster for printing from a sonderpreis-baumarkt article.",
+  "manifest_version": 2,
+  "name": "SPB Poster Generator",
+  "version": "1.0",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.sonderpreis-baumarkt.de/*"],
+      "js": ["borderify.js"],
+      "css": ["override.css", "Fonts.css"]
+    }
+  ],
+
+  "web_accessible_resources": [
+    "images/sale_background.png", 
+    "images/regular_background.png", 
+    "fonts/MyriadPro-Bold.otf",
+    "fonts/MyriadPro-BoldCond.otf",
+    "fonts/MyriadPro-Cond.otf",
+    "fonts/MyriadPro-Light.otf",
+    "fonts/MyriadPro-Regular.otf",
+    "fonts/MyriadPro-SemiBold.otf"
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{22c4e184-734c-4df5-acf1-7b394e0d56ec}"
+    }
+  }
+}

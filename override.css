@@ -1,0 +1,187 @@
+:root {
+  --black: #3c3c3b;
+  --yellow:#fedc01;
+  --red: #c90b1c;
+}
+
+@media print {
+  @page {
+    size: a4;
+    margin: 0;
+    padding: 0;
+  }  
+
+  body {
+    display: none;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    font-family: "Myriad", Arial;
+    color-adjust: exact;  
+    -webkit-print-color-adjust: exact; 
+    print-color-adjust: exact; 
+  }
+
+  #print-data-sales-price {
+    --size: 32.5mm;
+    text-align: center;
+    font-size: 20mm;
+    font-weight: 800;
+    line-height: var(--size);
+    color: rgb(255, 255, 255);
+    position:absolute;
+    top: 209mm;
+    left: 21mm;
+    width: 64mm;
+    height: var(--size);
+  }
+
+  #print-data-saved-price {
+    --size: 8mm;
+    text-align: center;
+    font-size: 7mm;
+    font-weight: 700;
+    line-height: var(--size);
+    color: var(--black);
+    position:absolute;
+    top: 238.9mm;
+    left: 25mm;
+    width: 56mm;
+    height: var(--size);
+  }
+
+  #print-data-uvp {
+    --size: 8mm;
+    text-align: left;
+    font-size: 7mm;
+    font-weight: 600;
+    line-height: var(--size);
+    color: var(--red);
+    position:absolute;
+    top: 194mm;
+    left: 25mm;
+    width: 56mm;
+    height: var(--size); 
+  }
+
+  #print-data-list-price {
+    --size: 10mm;
+    text-align: left;
+    font-size: 10mm;
+    font-weight: 700;
+    line-height: var(--size);
+    color: var(--red);
+    position:absolute;
+    top: 200.3mm;
+    left: 25mm;
+    width: 56mm;
+    height: var(--size); 
+  }
+
+  #print-data-article-name {
+    --size: 10mm;
+    text-align: center;
+    font-size: 8mm;
+    font-weight: 800;
+    line-height: var(--size);
+    color: var(--black);
+    position:absolute;
+    top: 75mm;
+    left: 0mm;
+    width: 210mm;
+    height: var(--size); 
+  }
+
+  #print-data-article-nr {
+    --size: 4mm;
+    text-align: center;
+    font-size: 3.5mm;
+    font-weight: 800;
+    line-height: var(--size);
+    color: #484846;
+    position:absolute;
+    top: 273mm;
+    left: 110mm;
+    width: 50mm;
+    height: var(--size); 
+  }
+
+  li::marker {
+    color: var(--black);
+    content: '- ';
+    font-size: 5mm;
+    font-weight: 500;
+  }
+  #print-data-attributes {
+    --size: 8mm;
+    text-align: left;
+    font-size: 6mm;
+    font-weight: 500;
+    line-height: var(--size);
+    color: var(--black);
+    position:absolute;
+    top: 110mm;
+    left: 25mm;
+    width: 160mm;
+    height: var(--size); 
+  }
+  #print-data-main-img {
+    width: 65mm !important;
+    height: 65mm !important;
+    position: absolute;
+    top: 195mm !important;
+    left: 135mm !important;
+  }
+
+  #print-data-back-img {
+    width: 210mm !important;
+    height: 297mm !important;
+    position: absolute;
+    top: 0mm !important;
+    left: 0mm !important;
+    z-index: -1;
+  }
+}
+
+#new-price-input {
+  width: 8.375rem; 
+  margin-right: 9rem;
+  height: 1.5rem;
+}
+
+#new-price-input:focus-visible {
+  outline: 0px;
+  border: 2px solid var(--red);
+  border-radius: 2px;
+}  
+
+#print-button {
+  font-weight: 700;
+  width: 8.375rem; 
+  margin-right: 9rem;
+  height: 1.5rem;
+  /* margin-top: -2rem; */
+  border: 0px;
+  border-radius: 4px;
+  background-color: var(--red);
+  color: white;
+}
+
+#print-button:hover {
+  color: lightgrey;
+}
+
+#print-button:active {
+  background-color: #a90b1c;
+}
+
+#sale-div {
+  margin-top: 0.5rem;
+}
+
+input[type="radio"]:checked {
+  accent-color: #c90b1c;
+}
