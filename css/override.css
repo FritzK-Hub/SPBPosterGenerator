@@ -90,8 +90,8 @@
     color: var(--black);
     position:absolute;
     top: 75mm;
-    left: 0mm;
-    width: 210mm;
+    left: 10mm;
+    width: 190mm;
     height: var(--size); 
   }
 
@@ -132,7 +132,7 @@
     width: 65mm !important;
     height: 65mm !important;
     position: absolute;
-    top: 195mm !important;
+    top: 192mm !important;
     left: 135mm !important;
   }
 
