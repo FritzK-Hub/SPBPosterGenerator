@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "name": "SPB Poster Generator",
   "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/borderify",
+  "homepage_url": "https://github.com/FritzK-Hub/SPBPosterGenerator",
   "icons": {
     "48": "icons/border-48.png"
   },
